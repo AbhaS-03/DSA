@@ -1,15 +1,12 @@
-class Node:
-    def __init__(self,data):
-        self.data=data
-        self.next=None
-class Linkedlist:
-    def __init__(self):
-        self.head= None
+ # 4. Find Middle Node
+    def middle(self):
+        slow = self.head
+        fast = self.head
 
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-    def create(self,values):
-        for value in values:
-            self.insert _end(values)
-
-    def insert_end(self,values):
-        new_node
+        if slow:
+            print("Middle node:", slow.data)
+            

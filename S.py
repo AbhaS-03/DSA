@@ -77,3 +77,4 @@ list1.print_list()
 print("\nDeleting 30:")
 list1.delete(30)
 list1.print_list()
+
